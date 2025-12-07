@@ -22,6 +22,9 @@ app.use(
     credentials: true,
   })
 );
+app.get("/api/test", (req, res) => {
+  res.json({ success: true, message: "Backend Working" });
+});
 app.use(express.json());
 app.use(cookieParser());
 

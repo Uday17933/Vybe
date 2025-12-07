@@ -18,7 +18,7 @@ const port = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://vybe-w89k.onrender.com",
+    origin: "vybe-git-main-udaykaushal970-3908s-projects.vercel.app",
     credentials: true,
   })
 );

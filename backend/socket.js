@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://vybe-w89k.onrender.com",
+    origin: "https://vybe-tan.vercel.app",
     methods: ["GET", "POST"],
   },
 });

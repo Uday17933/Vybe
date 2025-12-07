@@ -26,7 +26,7 @@ import getAllNotifications from "./hooks/getAllNotifications";
 import Notifications from "./pages/Notifications";
 import { setNotificationData } from "./redux/userSlice";
 
-export const serverUrl = "https://vybe-backend-hfoh.onrender.com";
+export const serverUrl = "https://vibe-rwd1.onrender.com";
 
 function App() {
   getCurrentUser();
